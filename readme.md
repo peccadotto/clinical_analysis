@@ -37,7 +37,7 @@ It transforms raw, multi-source clinical records into a high-quality, interactiv
 
 ## INSTRUCTIONS
 
-1.  **Prepare Data\
+1.  **`Prepare Data`\
     **Place your anonymized CSV files (formatted with `;` separator) into the `/data` folder
 
 2.  **Process:**\
