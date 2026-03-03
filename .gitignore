@@ -1,0 +1,11 @@
+# --- R and Rstudio files ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# --- Temporary output files ---
+*.log
+*.utf8.md
+*.knit.md
