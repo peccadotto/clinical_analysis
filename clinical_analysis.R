@@ -162,7 +162,7 @@
 # DATA EXPORT
 # -----------------------------------------------------------------------------
 
-# 9. Export dataframe for Markdown report
+# 9. Export data for Markdown report
   save(
     check_missing,
     clinical_stats_per_time_wide,
