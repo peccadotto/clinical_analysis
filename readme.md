@@ -37,8 +37,8 @@ It transforms raw, multi-source clinical records into a high-quality, interactiv
 
 ## INSTRUCTIONS
 
-1.  **`Prepare Data`\
-    **Place your anonymized CSV files (formatted with `;` separator) into the `/data` folder
+1.  **Prepare Data**\
+    Place your anonymized CSV files (formatted with `;` separator) into the `/data` folder
 
 2.  **Process:**\
     Execute the R script to clean and transform the data:
@@ -47,8 +47,8 @@ It transforms raw, multi-source clinical records into a high-quality, interactiv
     source("clinical_analysis.R")
     ```
 
-3.  **Render\
-    **Knit the .RMarkdown file in RStudio or via console:
+3.  **Render**\
+    Knit the .RMarkdown file in RStudio or via console:
 
     ```         
     rmarkdown::render("clinical_analysis.Rmd")
@@ -56,26 +56,26 @@ It transforms raw, multi-source clinical records into a high-quality, interactiv
 
 ## KEY FEATURES
 
--   **Automated Data Ingestion\
-    **Scans the `/data` directory for CSV files with specific facility prefixes
+-   **Automated Data Ingestion**\
+    Scans the `/data` directory for CSV files with specific facility prefixes
 
--   **Multi-Source Integration\
-    **Automatically detects and merges CSV files from different facilities based on unique 3-letter filename prefixes
+-   **Multi-Source Integration**\
+    Automatically detects and merges CSV files from different facilities based on unique 3-letter filename prefixes
 
--   **Integrity Auditing\
-    **Uses a custom `check_missing()` function to monitor data quality and NA percentages
+-   **Integrity Auditing**\
+    Uses a custom `check_missing()` function to monitor data quality and NA percentages
 
--   **Temporal Intelligence\
-    **Groups visits into 2-hour slots (from 08:00 to 20:00) to analyze peak facility usage
+-   **Temporal Intelligence**\
+    Groups visits into 2-hour slots (from 08:00 to 20:00) to analyze peak facility usage
 
--   **Service Classification\
-    **Detailed breakdown of visit types (e.g., First visits, Follow-ups, Hip US)
+-   **Service Classification**\
+    Detailed breakdown of visit types (e.g., First visits, Follow-ups, Hip US)
 
--   **Economic Insights\
-    **Distinguishes between National Health System, Private Practice and Insurance visits
+-   **Economic Insights**\
+    Distinguishes between National Health System, Private Practice and Insurance visits
 
--   **Professional Reporting\
-    **Generates a mobile-responsive "Robobook" report with interactive tables, stacked bar charts, and cumulative growth metrics
+-   **Professional Reporting**\
+    Generates a mobile-responsive "Robobook" report with interactive tables, stacked bar charts, and cumulative growth metrics
 
 ## TECH STACK
 
